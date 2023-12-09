@@ -5,7 +5,7 @@
 ## Overview
 
 The objective with this project was to build a tool to help an Olympic Wigthlifting Athlete to optimize the efficiency of their movements using Machine Learning models to analyze critical points of the technique and use it as an indicator to assess their technical work.
-The tool is is used to analyze two aspects: the **bar trajectory** and the the athlet's **triple extension**,
+The tool is is used to analyze two aspects: the **bar trajectory** and the the athlet's **triple extension**.
 
 This tool was built for Ironhack's Data Analytics Final Project.
 
@@ -52,7 +52,7 @@ Also added a **1-Rep Max Calculator** to calculate the Rep Max giving the number
 
 ## Future Improvements
 
-* Train my own models for plates and barbell detection. YOLO worked really well on this one because it's trained to detect objects with similar shapes;
+* Train my own models for plates detection only. YOLO worked fairly well on this one because it's trained to detect objects with similar shapes but the accuracy detection could increase;
 * Build an App that takes as an input a recording of a movement done in a training session and output the analysis asked to help athlets and coaches to anylize and know how to aproach their technique work.
 
 ## Resources
