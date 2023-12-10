@@ -41,7 +41,7 @@ MediaPipe's pose estimator allowed to track ankles, kness and hips coordinates a
 
 
 
-| Not Extended                         | Extendeded                        |
+| Not Extended                         | Extended                        |
 | --------------------------------- | --------------------------------- |
 | ![Not Extended](https://i.postimg.cc/vHH1YKBK/temp-Image-Voc-Sr-M.jpg) | ![Extended](https://i.postimg.cc/X7HrpgBY/temp-Imagex-Ewu-N9.jpg) |
 
