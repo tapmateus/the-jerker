@@ -1,6 +1,6 @@
 # The Jerker: Olympic Weightlifting Analysis with Machine Learning
 
-![Image]([https://i.ibb.co/tqhV5tb/imagem.png](https://www.shutterstock.com/image-vector/black-white-illustration-barbell-isolated-600nw-1291006585.jpg)https://www.shutterstock.com/image-vector/black-white-illustration-barbell-isolated-600nw-1291006585.jpg)
+![Image](https://i.postimg.cc/YCTfm7L0/temp-Image6e-Zn-TY.jpg)
 
 ## Overview
 
@@ -23,8 +23,8 @@ I'll hightlight some:
 
 * **YOLOv8**: used for object detections and tracking so the bar path trajectory line drawing was possible;
 * **MediPipe**: used for pose estimations so to analyze the body positioning that would allow to calculate angles between joints and therefore check if triple extension is performed or not;
-* **OpenCV**: the Open Computer Vision library supports both YOLO and Mediapipe for processing the video with the overlays for the desired analsysis.
-
+* **OpenCV**: the Open Computer Vision library supports both YOLO and Mediapipe for processing the video with the overlays for the desired analsysis;
+* **Streamlit**: Also played around with Streamlit to idealize a possible future App.
 
 
 ## Tools
@@ -33,15 +33,18 @@ I'll hightlight some:
 
 YOLOv8 pre-trained model for object detection and tracking supported by OpenCV allows to make this type of observation and analysis:
 
-![Trajectory](https://ibb.co/nz3jRwV)
+![Trajectory](https://i.postimg.cc/nhSqfJGT/temp-Imagex-W7f6-H.jpg)
 
 ### Triple Extension Checker
 
-MediaPipe's pose estimator allowed to track ankles, kness and hips coordinates and then calculate the angle on the with a functions made apart from that. You'll get an observation like this one:
+MediaPipe's pose estimator allowed to track ankles, kness and hips coordinates and then calculate the angle on the with a function made apart from this. You'll get an observation like this one (one close to extended but no extended, one perfectly extended):
 
-![Not extended](https://ibb.co/SRVN4Dj)
 
-![Perfect](https://ibb.co/zmLP71G)
+
+| Not Extended                         | Extendeded                        |
+| --------------------------------- | --------------------------------- |
+| ![Not Extended](https://i.postimg.cc/vHH1YKBK/temp-Image-Voc-Sr-M.jpg) | ![Extended](https://i.postimg.cc/X7HrpgBY/temp-Imagex-Ewu-N9.jpg) |
+
 
 ### 2 Additional Features
 
